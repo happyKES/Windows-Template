@@ -1,5 +1,5 @@
 body {
-    background-image: url('/img/windows1.jpg');
+    background-image: url('./img/windows1.jpg');
     background-size: cover;
     background-position: center;
     max-width: 100%;
