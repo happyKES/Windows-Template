@@ -1,0 +1,42 @@
+body {
+    background-image: url('/img/windows1.jpg');
+    background-size: cover;
+    background-position: center;
+    max-width: 100%;
+    margin: 0;
+}
+.profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 17%;
+} 
+.user {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+.profile h2 {
+    font-size: 55px;
+    color: white;
+    font-size: 35px;
+}
+.profile .signin {
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+.profile .btn {
+    background-color: rgb(161, 161, 161);
+    color: white;
+    border: solid white;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}

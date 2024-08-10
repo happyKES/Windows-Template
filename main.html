@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./css/main.css">
+        <link rel="stylesheet" href="./css/reset.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>Windows 10 Desktop</title>
+    </head>
+    <body>
+        <div class="icon">
+            <img src="/icon/userfolder.png" alt="user">
+            <p>Jonathan</p>
+            <img src="/icon/thispc.png" alt="this pc">
+            <p>This PC</p>
+            <img src="/icon/network.png" alt="network">
+            <p>Network</p>
+            <img src="/icon/controlpanel.png" alt="control panel">
+            <p>Control Panel</p>
+            <img src="/icon/chrome.png" alt="Google Chrome">
+            <p>Google Chrome</p>
+            <img src="/icon/excel.png" alt="excel">
+            <p>Excel</p>
+            <img src="/icon/folder.png" alt="folder">
+            <p>New Folder</p>
+            <img src="/icon/folder2.png" alt="folder">
+            <p>Programs Folder</p>
+            <div class="trush">
+                <img src="/icon/recyclebin.png" alt="recycle bin">
+                <p>Recycle Bin</p>   
+            </div>
+        </div>
+    </body>
+    <footer>
+        <div class="ft-icon">
+            <img src="/icon/windows2.png" alt="windows">
+            <div class="search">
+                <i class="fa fa-search" aria-hidden="true"></i>
+                <input class="placeholder" type="text" placeholder="Type here to search" name="search">
+            </div>
+            <img src="/icon/edge.png" alt="microsoft edge">
+            <img src="/icon/chrome.png" alt="Chrome">
+            <img src="/icon/excel.png" alt="excel">
+            <img src="/icon/powerpoint.png" alt="powerpoint">
+            <img src="/icon/onedrive.png" alt="onedrive">
+            <img src="/icon/telegram.png" alt="telegram">
+            <img src="/icon/whatsapp.png" alt="whatsapp">   
+            <div class="right">
+                <i class="fa fa-wifi" aria-hidden="true"></i>
+                <i class="fa fa-volume-up" aria-hidden="true"></i>
+                <p>ENG</p>
+                <span id="datetime"></span>
+                <i class="fa fa-envelope-o" aria-hidden="true"></i>
+            </div>
+        </div>    
+    </footer>
+    <script>
+        function updateDateTime() {
+          const now = new Date();
+          const currentDateTime = now.toLocaleString();
+          document.querySelector('#datetime').textContent = currentDateTime;
+        }
+        setInterval(updateDateTime, 0.1);
+      </script>
+</html>
